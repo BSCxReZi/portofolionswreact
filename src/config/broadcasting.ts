@@ -1,3 +1,14 @@
+import VTR from "./VTR.jpg";
+import PDU from "./PDU.jpg";
+import Switcherman from "./Switcherman.jpg";
+import IMG20250929 from "./IMG_20250929_171328.jpg";
+import SWIT from "./SWIT.jpg";
+import kameramen from "./kameramen.jpg";
+import KAmera from "./KAmera.jpg";
+import cam3 from "./cam3.jpg";
+import CamperVan from "./CamperVan.jpg";
+import AudioManDangdut from "./AudioMan Dangdut keliling.jpg";
+
 export interface BroadcastCategory {
   title: string;
   icon: string;
@@ -49,56 +60,52 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   {
-    src: "src\\config\\VTR.jpg",
+    src: VTR,
     alt: "Broadcasting studio control panel with microphone and multiple screens",
     category: "MCR",
   },
   {
-    src: "src\\config\\PDU.jpg",
+    src: PDU,
     alt: "TV broadcast control room with multiple screens and equipment",
     category: "MCR",
   },
   {
-    src: "src\\config\\Switcherman.jpg",
+    src: Switcherman,
     alt: "Control room with multiple monitors displaying various scenes",
     category: "MCR",
   },
-      {
-    src: "src\\config\\IMG_20250929_171328.jpg",
-    alt: "Control room with multiple monitors displaying various scenes",
-    category: "MCR",
-  },
-
-        {
-    src: "src\\config\\SWIT.jpg",
-    alt: "Control room with multiple monitors displaying various scenes",
-    category: "MCR",
-  },
-
-
-
   {
-    src: "src\\config\\kameramen.jpg",
+    src: IMG20250929,
+    alt: "Control room with multiple monitors displaying various scenes",
+    category: "MCR",
+  },
+  {
+    src: SWIT,
+    alt: "Control room with multiple monitors displaying various scenes",
+    category: "MCR",
+  },
+  {
+    src: kameramen,
     alt: "TV studio setup with cameras and green screen for production",
     category: "Studio",
   },
   {
-    src: "src\\config\\KAmera.jpg",
+    src: KAmera,
     alt: "High-tech video camera setup in modern studio environment",
     category: "Studio",
   },
   {
-    src: "src\\config\\cam3.jpg",
+    src: cam3,
     alt: "Videographer adjusting camera equipment during a live broadcast",
     category: "Studio",
   },
   {
-    src: "src\\config\\CamperVan.jpg",
+    src: CamperVan,
     alt: "Broadcasting control room filled with equipment and monitors",
     category: "OB Van",
   },
   {
-    src: "src\\config\\AudioMan Dangdut keliling.jpg",
+    src: AudioManDangdut,
     alt: "Professional video camera with lens on a tripod ready for filming",
     category: "OB Van",
   },
